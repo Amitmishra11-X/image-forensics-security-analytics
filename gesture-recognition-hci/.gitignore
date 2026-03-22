@@ -1,0 +1,41 @@
+__pycache__/
+*.pyc
+*.pyo
+venv/
+env/
+*.egg-info/
+
+# Large model files
+models/*.pth
+models/*.pt
+models/*.ckpt
+models/*.tflite
+models/*.onnx
+
+# Datasets (too large for GitHub)
+data/train/
+data/test/
+data/val/
+data/asl/
+data/hagrid/
+
+# Results
+results/*.png
+results/*.jpg
+results/*.mp4
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+runs/

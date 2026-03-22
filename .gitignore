@@ -1,0 +1,47 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Model checkpoints (large files)
+models/*.pth
+models/*.pt
+models/*.ckpt
+
+# Data (do not commit datasets)
+data/train/
+data/test/
+data/val/
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tiff
+!data/sample_images/
+
+# Results
+results/*.png
+results/*.jpg
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp files
+/tmp/
+*.log
