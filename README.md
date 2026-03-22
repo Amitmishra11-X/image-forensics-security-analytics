@@ -7,7 +7,9 @@
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
 A deep learning pipeline for **image forensics and security analytics** — detecting image tampering, splicing, copy-move forgery, and morphed document detection using CNN-based spatial feature analysis, Error Level Analysis (ELA), and Grad-CAM explainability.
-🌐 **Live Demo:**https://image-forensics-security-analytics-dormx3vpzjagcc9jegpoxg.streamlit.app/
+
+🌐 **Live Demo:**  https://image-forensics-security-analytics-dormx3vpzjagcc9jegpoxg.streamlit.app/
+
 ---
 
 ## 📌 Project Overview
